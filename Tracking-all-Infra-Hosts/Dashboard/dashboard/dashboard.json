@@ -1,0 +1,546 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1660928530036,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "44911e55-984f-4965-80b1-bf0087328ab7",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1680683427146,
+      "lastUpdateUserId": "e6a68a6a-379d-4afe-8371-56d2b2684223",
+      "locked": false,
+      "name": "Infra Dashboard",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "e6a68a6a-379d-4afe-8371-56d2b2684223",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "1216950f-b0fe-4d20-97a1-dee7bcccac8c",
+            "widgetIdReceiver": "e44c8b9f-2570-405c-9917-58dd5ac2306d"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "1216950f-b0fe-4d20-97a1-dee7bcccac8c",
+            "widgetIdReceiver": "b3319b26-4fb2-4019-a9e3-a5b995931335"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "1216950f-b0fe-4d20-97a1-dee7bcccac8c",
+            "widgetIdReceiver": "0e49a16b-f1df-49db-ac49-3ba1430f2e34"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "1216950f-b0fe-4d20-97a1-dee7bcccac8c",
+            "widgetIdReceiver": "32c1b009-6de6-4d16-87f4-8054a0405c9f"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "chartViewItems": [],
+               "isUpdatedView": true,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "resource": {
+                  "id": "Ext.vcops.chrome.model.Resource-1",
+                  "resourceId": "resource:id:0_::_",
+                  "resourceKindId": "002006VMWAREVMwareAdapter Instance",
+                  "resourceName": "GCRUHPRODVC01-vROPs",
+                  "traversalSpecId": ""
+               },
+               "selectFirstRow": {"selectFirstRow": false},
+               "selfProvider": {"selfProvider": true},
+               "title": "Hosts Information",
+               "traversalSpecId": null,
+               "viewDefinitionId": "8daa5c2a-1cd1-4761-93f0-ffa561495812"
+            },
+            "gridsterCoords": {
+               "h": 9,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 495,
+            "id": "1216950f-b0fe-4d20-97a1-dee7bcccac8c",
+            "states": [
+               {
+                  "key": "permSelectedDate_widget_44911e55-984f-4965-80b1-bf0087328ab7_1216950f-b0fe-4d20-97a1-dee7bcccac8c",
+                  "value": "s%3A%7B%22minType%22%3A%22.TimeIntervalControl%22%2C%22advancedTimeMode%22%3Afalse%2C%22fromTime%22%3Anull%2C%22unit%22%3A%22DAYS%22%2C%22count%22%3A7%2C%22priorUnit%22%3Anull%2C%22priorCount%22%3Anull%2C%22startSubUnit%22%3Anull%2C%22startPeriod%22%3Anull%2C%22toTime%22%3Anull%2C%22endUnit%22%3Anull%2C%22endCount%22%3Anull%2C%22endSubUnit%22%3Anull%2C%22endPeriod%22%3Anull%2C%22isRealTimeData%22%3Anull%2C%22mondayHours%22%3A%5B%5D%2C%22tuesdayHours%22%3A%5B%5D%2C%22wednesdayHours%22%3A%5B%5D%2C%22thursdayHours%22%3A%5B%5D%2C%22fridayHours%22%3A%5B%5D%2C%22saturdayHours%22%3A%5B%5D%2C%22sundayHours%22%3A%5B%5D%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_44911e55-984f-4965-80b1-bf0087328ab7_1216950f-b0fe-4d20-97a1-dee7bcccac8c",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "Hosts Information",
+            "type": "View"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel13273-1",
+                     "isStringMetric": false,
+                     "metricKey": "sys|poweredOn",
+                     "metricName": "System|Powered ON",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Host System"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Uptime Chart For Current Month"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 1,
+               "y": 10
+            },
+            "height": 438,
+            "id": "e44c8b9f-2570-405c-9917-58dd5ac2306d",
+            "states": [
+               {
+                  "key": "permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_e44c8b9f-2570-405c-9917-58dd5ac2306d",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_e44c8b9f-2570-405c-9917-58dd5ac2306d",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_e44c8b9f-2570-405c-9917-58dd5ac2306d",
+                  "value": "s%3A%7B%22dateRange%22%3A%22currentMonth%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_44911e55-984f-4965-80b1-bf0087328ab7_e44c8b9f-2570-405c-9917-58dd5ac2306d",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_e44c8b9f-2570-405c-9917-58dd5ac2306d",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Uptime Chart For Current Month",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel17015-1",
+                     "isStringMetric": false,
+                     "metricKey": "cpu|usage_average",
+                     "metricName": "CPU|Usage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Host System",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "CPU Utilization Chart For Current Month"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 5,
+               "y": 10
+            },
+            "height": 438,
+            "id": "b3319b26-4fb2-4019-a9e3-a5b995931335",
+            "states": [
+               {
+                  "key": "permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_b3319b26-4fb2-4019-a9e3-a5b995931335",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_44911e55-984f-4965-80b1-bf0087328ab7_b3319b26-4fb2-4019-a9e3-a5b995931335",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateRange_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_b3319b26-4fb2-4019-a9e3-a5b995931335",
+                  "value": "s%3A%7B%22dateRange%22%3A%22currentMonth%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_b3319b26-4fb2-4019-a9e3-a5b995931335",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_b3319b26-4fb2-4019-a9e3-a5b995931335",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "CPU Utilization Chart For Current Month",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel25037-1",
+                     "isStringMetric": false,
+                     "metricKey": "mem|usage_average",
+                     "metricName": "Memory|Usage",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Host System",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Memory Utilization Chart For Current Month"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 9,
+               "y": 10
+            },
+            "height": 438,
+            "id": "0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+            "states": [
+               {
+                  "key": "permBtn_dynamicThresholds_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+                  "value": "s%3A%7B%22dateRange%22%3A%22currentMonth%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "permBtn_showEntireDT_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_44911e55-984f-4965-80b1-bf0087328ab7_0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_44911e55-984f-4965-80b1-bf0087328ab7_0e49a16b-f1df-49db-ac49-3ba1430f2e34",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "Memory Utilization Chart For Current Month",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Total Number of Hosts",
+                     "metricKey": "summary|total_number_hosts",
+                     "metricName": "Summary|Total Number of Hosts",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Number of Running VMs",
+                     "metricKey": "summary|number_running_vms",
+                     "metricName": "Summary|Number of Running VMs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "CPU Failover Resources%",
+                     "metricKey": "configuration|dasConfig|admissionControlPolicy|cpuFailoverResourcesPercent",
+                     "metricName": "Cluster Configuration|DAS Configuration|Admission Control Policy|CPU Failover Resources Percent",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "DRS Enabled And Fully Automated",
+                     "metricKey": "configuration|drsconfig|enabledAndFullyAutomated",
+                     "metricName": "Cluster Configuration|DRS Configuration|DRS Enabled And Fully Automated",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cpu|workload",
+                  "name": "CPU|Workload (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 5,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Top-5 Cluster CPU Workload%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 70
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 1,
+               "y": 18
+            },
+            "height": 324,
+            "id": "9cc73483-7665-4b40-9a61-a82d9fff4a01",
+            "states": [{
+               "key": "perm_toolbarVisible_widget_44911e55-984f-4965-80b1-bf0087328ab7_9cc73483-7665-4b40-9a61-a82d9fff4a01",
+               "value": "b%3A0"
+            }],
+            "title": "Top-5 Cluster CPU Workload%",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [
+                  {
+                     "boxLabel": "Total Number of Hosts",
+                     "metricKey": "summary|total_number_hosts",
+                     "metricName": "Summary|Total Number of Hosts",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Number of Running VMs",
+                     "metricKey": "summary|number_running_vms",
+                     "metricName": "Summary|Number of Running VMs",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "Memory Failover Resources%",
+                     "metricKey": "configuration|dasConfig|admissionControlPolicy|memoryFailoverResourcesPercent",
+                     "metricName": "Cluster Configuration|DAS Configuration|Admission Control Policy|Memory Failover Resources Percent",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  },
+                  {
+                     "boxLabel": "DRS Enabled And Fully Automated",
+                     "metricKey": "configuration|drsconfig|enabledAndFullyAutomated",
+                     "metricName": "Cluster Configuration|DRS Configuration|DRS Enabled And Fully Automated",
+                     "resourceKindId": "resourceKind:id:1_::_"
+                  }
+               ],
+               "barsCount": 5,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "mem|usage_average",
+                  "name": "Memory|Usage (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "regenerationTime": 5,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:1_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Top-5 Clusters Memory Usage%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 70
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 6,
+               "x": 7,
+               "y": 18
+            },
+            "height": 323,
+            "id": "1e1e436c-5179-4d14-be41-bfd9484a2773",
+            "states": [{
+               "key": "perm_toolbarVisible_widget_44911e55-984f-4965-80b1-bf0087328ab7_1e1e436c-5179-4d14-be41-bfd9484a2773",
+               "value": "b%3A0"
+            }],
+            "title": "Top-5 Clusters Memory Usage%",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "alertAction": [],
+               "alertImpact": [],
+               "criticalityLevel": [],
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "filterMode": "tagPicker",
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 300,
+               "relationshipMode": {"relationshipMode": 0},
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "state": [],
+               "status": [0],
+               "tagFilter": null,
+               "title": "Alert List",
+               "type": []
+            },
+            "gridsterCoords": {
+               "h": 6,
+               "w": 12,
+               "x": 1,
+               "y": 24
+            },
+            "height": 323,
+            "id": "32c1b009-6de6-4d16-87f4-8054a0405c9f",
+            "states": [
+               {
+                  "key": "permViewMode_widget_44911e55-984f-4965-80b1-bf0087328ab7_32c1b009-6de6-4d16-87f4-8054a0405c9f",
+                  "value": "s%3AcriticalityLevel"
+               },
+               {
+                  "key": "permDateFilter_widget_44911e55-984f-4965-80b1-bf0087328ab7_32c1b009-6de6-4d16-87f4-8054a0405c9f",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last30Days%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_44911e55-984f-4965-80b1-bf0087328ab7_32c1b009-6de6-4d16-87f4-8054a0405c9f",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permAlertGrid_perm_widget_44911e55-984f-4965-80b1-bf0087328ab7_32c1b009-6de6-4d16-87f4-8054a0405c9f",
+                  "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%255Eo%25253Aid%25253Ds%2525253Ah3%255Eo%25253Aid%25253Ds%2525253Ah4%255Eo%25253Aid%25253Ds%2525253Ah5%255Eo%25253Aid%25253Ds%2525253Ah6%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah11%255Eo%25253Aid%25253Ds%2525253Ah12%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ehidden%25253Db%2525253A1%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AalertLevel%2525255Edirection%2525253Ds%252525253ADESC%2525255Eid%2525253Ds%252525253AalertLevel"
+               }
+            ],
+            "title": "Alert List",
+            "type": "AlertList"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "VMWARE",
+         "identifiers": [{
+            "key": "VCURL",
+            "value": "GCRUHPRODVC01.services.gws.sa"
+         }],
+         "internalId": "resource:id:0_::_",
+         "name": "GCRUHPRODVC01-vROPs",
+         "resourceKindKey": "VMwareAdapter Instance"
+      }],
+      "resourceKind": [
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:0_::_",
+            "resourceKindKey": "HostSystem"
+         },
+         {
+            "adapterKindKey": "VMWARE",
+            "internalId": "resourceKind:id:1_::_",
+            "resourceKindKey": "ClusterComputeResource"
+         }
+      ]
+   },
+   "uuid": "720980b1-33cc-40b1-aaf5-6ebdade4ed37"
+}
